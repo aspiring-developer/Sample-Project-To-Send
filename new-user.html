@@ -11,29 +11,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- ########## STYLE SHEETS - CSS ########## -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="new-user.css">
 </head>
 <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
-<body>
+<body class="newUserBody">
   <!-- !########## MAIN SECTION ########## -->
 
-  <div class="container-fluid mainWrapper">
+  <div class="container-fluid newUserMainWrapper">
     <div class="newUserFormWrapper">
-      <div class="row formRow">
-        <div class="col logoWrapper"> <a href="#"><img src="images/AMP-logo.png" alt="AMP Logo" id="landingLogo" /> </a> </div>
-        <div class=" col-sm-12 formCol">
-          <form id="account" method="post">
-            <input type="email" class="form-control" id="Input_Email" name="Input.Email" placeholder="UserName" />
-            <input type="password" class="form-control" id="Input_Password" name="Input.Password" placeholder="Password" />
+      <div class="row newUserFormRow">
+        <div class="col newUserLogoWrapper"> <a href="#"><img src="images/AMP-logo.png" alt="AMP Logo" id="newUserLogo" /> </a> </div>
+        <div class=" col-sm-12 newUserFormCol">
+          <form id="account" method="post" class="newUserForm">
+            <input type="email" class="new-user-form-control" id="Input_Email" name="Input.Email" placeholder="UserName" />
+            <input type="password" class="new-user-form-control" id="Input_Password" name="Input.Password" placeholder="Password" />
             <label for="Input_RememberMe">
               <input type="checkbox" id="Input_RememberMe" name="Input.RememberMe" />
               Remember Me? </label><br />
-            <button type="submit" class="btn loginBtn w-50" title="Login"><span>Log in</span></button>
+            <button type="submit" class="btn newUserLoginBtn w-50" title="Login"><span>Submit Form</span></button>
             <hr />
-            <p id="new-user-request"> <a href="new-user.html">New User Request? </a></p>
-            <p id="forgot-password"><a href="password-retrieve.html"> Forgot Password?</a></p>
 
           </form>
         </div>

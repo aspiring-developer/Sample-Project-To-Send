@@ -1,14 +1,4 @@
-.landingBody {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 500;
-  text-align: center;
-  margin: 0 auto;
-  height: 100vh;
-  background: url("images/test-bg-5.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
-.landingMainWrapper {
+.newUserMainWrapper {
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
@@ -19,35 +9,35 @@
   background-color: rgba(245, 248, 250, 0.7);
 }
 
-.landingFormWrapper {
+.newUserFormWrapper {
   padding: 3rem 4rem;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 2px 2px 5px rgba(16, 17, 17, 0.5);
 }
 
-.landingFormRow {
+.newUserFormRow {
   width: 400px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 1);
 }
 
-.landingLogoWrapper {
+.newUserLogoWrapper {
   border-radius: 10px 10px 0 0;
   background-color: rgba(255, 255, 255, 1);
   margin: 1rem;
 }
 
-.landingFormWrapper img {
+.newUserFormWrapper img {
   margin: 1rem auto;
 }
 
-.landingForm {
+.newUserForm {
   text-align: center;
   background-color: rgb(238, 248, 248);
   padding: 2rem;
 }
 
-.landing-form-control {
+.newUser-form-control {
   font-size: .9rem;
   padding: .5rem;
   margin: 1rem auto;
@@ -56,32 +46,32 @@
   border: 1px solid #d6d5d5;
 }
 
-.landing-form-control::placeholder {
+.newUser-form-control::placeholder {
   color: #a0a0a0;
 }
 
-.landingForm label, .landingForm p {
+.newUserForm label, .newUserForm p {
   color: #385877;
   font-size: .9rem;
   margin-top: 1rem;
 }
 
-.landingLoginBtn {
+.newUserLoginBtn {
   background-color: #3f6990;
   color: #fff;
   margin: 1rem auto;
   font-size: .9rem;
 }
 
-.landingLoginBtn:hover {
+.newUserLoginBtn:hover {
   background-color: #325779;
   color: #b8d7f5;
 }
 
-.landingNewUser a, .landingForgotPassword a {
+.newUserNewUser a, .newUserForgotPassword a {
   color: #385877;
 }
 
-.landingNewUser a:hover, .landingForgotPassword a:hover {
+.newUserNewUser a:hover, .newUserForgotPassword a:hover {
   color: #0f5e5e;
 }
