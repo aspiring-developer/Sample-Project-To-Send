@@ -25,40 +25,57 @@
         <div class="col-sm-12 newUserContentsCol">
           <div class="col newUserLogoWrapper"> <a href="#"><img src="images/AMP-logo.png" alt="AMP Logo" id="newUserLogo" /> </a> </div>
           <hr />
-          <h5>User Access Request</h5>
-          <form id="frmNewUserRequest" method="post" Action="#" class="newUserForm">
-            <label for="First_Name" class="newUserLabel">First Name</label>
-            <input type="text" value="" class="newUser-form-control" id="txtFirstName" name="First_Name" placeholder="Enter Your First Name" />
+          <h4>User Access Request</h4>
+          <form id="frmNewUserRequest" method="post" Action="#" class="newUserForm row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <label for="First_Name" class="newUserLabel">First Name</label>
+              <input type="text" value="" class="newUser-form-control" id="txtFirstName" name="First_Name" placeholder="Enter Your First Name" />
+            </div>
 
-            <label for="Middle_Name" class="newUserLabel">Middle Name</label>
-            <input type="text" value="" class="newUser-form-control" id="txtMiddleName" name="Middle_Name" placeholder="Enter Your Middle Name" />
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <label for="Middle_Name" class="newUserLabel">Middle Name</label>
+              <input type="text" value="" class="newUser-form-control" id="txtMiddleName" name="Middle_Name" placeholder="Enter Your Middle Name" />
+            </div>
 
-            <label for="Last_Name" class="newUserLabel">Last Name</label>
-            <input type="text" value="" class="newUser-form-control" id="txtLastName" name="Last_Name" placeholder="Enter Your Last Name" />
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <label for="Last_Name" class="newUserLabel">Last Name</label>
+              <input type="text" value="" class="newUser-form-control" id="txtLastName" name="Last_Name" placeholder="Enter Your Last Name" />
+            </div>
 
-            <label for="Email" class="newUserLabel">Email Address</label>
-            <input type="email" class="new-user-form-control" id="txtEmailAddress" value="" name="Email" placeholder="Email Address" />
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <label for="Email" class="newUserLabel">Email Address</label>
+              <input type="email" class="newUser-form-control" id="txtEmailAddress" value="" name="Email" placeholder="Email Address" />
+            </div>
 
-            <label for="Telephone" class="newUserLabel">Mobile Number </label>
-            <input type="tel" class="new-user-form-control" id="txtMobileNumber" value="" name="Telephone" placeholder="Phone Number" />
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <label for="Telephone" class="newUserLabel">Mobile Number </label>
+              <input type="tel" class="newUser-form-control" id="txtMobileNumber" value="" name="Telephone" placeholder="Phone Number" />
+            </div>
 
-            <label for="UserType" class="newUserLabel">User Type</label>
-            <select class="new-user-form-control" id="drpUserType" name="UserType">
-              <option value="">Select</option>
-              <option value="1">Company Admin</option>
-              <option value="2">Normal User</option>
-              <option value="3">Super Admin</option>
-              <option value="4">Property Risk Admin</option>
-              <option value="5">Property Risk User.</option>
-              <option value="6">Claim Admin</option>
-              <option value="7">Claim User.</option>
-            </select>
+            <div class="col-sm-12 col-md-6 col-lg-4 selectField">
+              <label for="UserType" class="newUserLabel">User Type</label>
+              <select class="newUser-form-control" id="drpUserType" name="UserType">
+                <option value=""> </option>
 
-            <label for="CustomerName" class="newUserLabel"> Customer Name </label>
-            <input type="text" class="new-user-form-control" id="txtCustomerName" value="" name="CustomerName" value="" placeholder="Customer Name" />
+                <option value="1">Company Admin</option>
+                <option value="2">Normal User</option>
+                <option value="3">Super Admin</option>
+                <option value="4">Property Risk Admin</option>
+                <option value="5">Property Risk User.</option>
+                <option value="6">Claim Admin</option>
+                <option value="7">Claim User.</option>
+              </select>
+            </div>
 
-            <br />
-            <button type="submit" class="btn submitBtn w-50" title="Login"><span>Submit Form</span></button>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <label for="CustomerName" class="newUserLabel"> Customer Name </label>
+              <input type="text" class="newUser-form-control" id="txtCustomerName" value="" name="CustomerName" value="" placeholder="Customer Name" />
+            </div>
+
+            <div class="col-sm-12 buttonWrapper">
+              <button type="submit" class="btn submitBtn w-50" title="Submit"><span>Submit Form</span></button>
+            </div>
+
             <hr />
             <p class="newUserNote"> Please allow at least one business day to process this request. </p>
 

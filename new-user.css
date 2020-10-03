@@ -10,7 +10,7 @@
   background-color: rgba(245, 248, 250, 0.7);
 }
 
-.newUserContentsRow h5 {
+.newUserContentsRow h4 {
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -38,14 +38,17 @@
 
 .newUserForm {
   text-align: center;
-  background-color: rgb(238, 248, 248);
+  background-color: rgb(242, 248, 248);
   padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .newUser-form-control {
   font-size: .9rem;
   padding: .5rem;
-  margin: 1rem auto;
+  margin: .1rem auto;
   width: 80%;
   text-align: center;
   border: 1px solid #d6d5d5;
@@ -55,31 +58,15 @@
   color: #a0a0a0;
 }
 
+.selectField select option {
+  color: #585858;
+}
+
 .newUserForm label, .newUserForm p {
   color: #385877;
   font-size: .9rem;
   margin-top: 1rem;
 }
-
-/* .newUserLoginBtn {
-  background-color: #3f6990;
-  color: #fff;
-  margin: 1rem auto;
-  font-size: .9rem;
-}
-
-.newUserLoginBtn:hover {
-  background-color: #325779;
-  color: #b8d7f5;
-}
-
-.newUserNewUser a, .newUserForgotPassword a {
-  color: #385877;
-}
-
-.newUserNewUser a:hover, .newUserForgotPassword a:hover {
-  color: #0f5e5e;
-} */
 
 form .newUserNote {
   color: rgb(255, 72, 0);

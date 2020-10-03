@@ -30,7 +30,11 @@ input:focus::placeholder {
   background-color: #3f6990;
   color: #fff;
   margin: 1rem auto;
-  font-size: .9rem;
+  font-size: .5rem;
+}
+
+.buttonWrapper .btn {
+  font-size: .95rem;
 }
 
 .loginBtn:hover, .submitBtn:hover {
