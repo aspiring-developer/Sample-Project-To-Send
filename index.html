@@ -11,30 +11,33 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- ########## STYLE SHEETS - CSS ########## -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="landing.css">
 </head>
 <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
-<body>
+<body class="landingBody">
   <!-- !########## MAIN SECTION ########## -->
 
-  <div class="container-fluid mainWrapper">
-    <div class="entireWrapper">
-      <div class="row formWrapper">
-        <div class="col logoWrapper"> <img src="images/AMP-logo.png" alt="AMP Logo" id="landingLogo" /> </div>
-        <div class=" col-sm-12">
-          <form id="account" method="post">
-            <input type="email" class="form-control" id="Input_Email" name="Input.Email" placeholder="UserName" />
-            <input type="password" class="form-control" id="Input_Password" name="Input.Password" placeholder="Password" />
+  <div class="container-fluid landingMainWrapper">
+    <div class="landingFormWrapper">
+      <div class="row landingFormRow">
+        <div class="col landingLogoWrapper"> <a href="#"><img src="images/AMP-logo.png" alt="AMP Logo" id="landingLogo" /> </a> </div>
+        <div class=" col-sm-12 formCol">
+          <form id="account" method="post" class="landingForm">
+            <input type="email" class="landing-form-control" id="Input_Email" name="Input.Email" placeholder="UserName" />
+            <input type="password" class="landing-form-control" id="Input_Password" name="Input.Password" placeholder="Password" />
             <label for="Input_RememberMe">
               <input type="checkbox" id="Input_RememberMe" name="Input.RememberMe" />
-              Remember Me? </label>
-            <button type="submit" class="btn btn-primary w-100" title="Login"><span>Log in</span></button>
+              Remember Me? </label><br />
+            <button type="submit" class="btn landingLoginBtn w-50" title="Login"><span>Log in</span></button>
+            <hr />
+            <p id="new-user-request" class="landingNewUser"> <a href="new-user.html">New User Request? </a></p>
+            <p id="forgot-password" class="landingForgotPassword"><a href="password-retrieve.html"> Forgot Password?</a></p>
 
           </form>
         </div>
-        <footer class="col text-center text-secondary">
+        <footer class="col text-center text-secondary landingFooter">
           <p> &copy;2020 &bull; Asset Management Platform </p>
         </footer>
       </div> <!-- .formWrapper ends -->
