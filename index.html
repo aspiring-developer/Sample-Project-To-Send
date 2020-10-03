@@ -17,26 +17,28 @@
 <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
 <body>
-  <!-- Main wrapper -->
-  <div class="container mainWrapper bg-info">
-    <!-- !########## MAIN SECTION -1 ########## -->
-    <div class="row px-4 mainSectionRow">
-      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-      <div class="col-sm-12">
-        <h1 class="text-center text-dark text-uppercase font-weight-bold mt-5"> Large Title of the site <br> <span class="text-secondary"> Secondary Title </span> </h1>
-        <h3 class="text-center text-secondary my-3"> <em> Slogan/Motto or ......</em> </h3>
-      </div>
-      <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-    </div> <!-- .mainSection1Row ends -->
+  <!-- !########## MAIN SECTION ########## -->
 
-    <!-- !########## FOOTER SECTION ########## -->
-    <div class="row footer">
-      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-      <div class="col-sm-12 text-center text-secondary py-4 px-3">
-        <p> &copy;2020 &bull; Asset Management Platform </p>
-      </div> <!-- footer ends -->
-      <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-    </div> <!-- footer ends-->
+  <div class="container-fluid mainWrapper">
+    <div class="entireWrapper">
+      <div class="row formWrapper">
+        <div class="col logoWrapper"> <img src="images/AMP-logo.png" alt="AMP Logo" id="landingLogo" /> </div>
+        <div class=" col-sm-12">
+          <form id="account" method="post">
+            <input type="email" class="form-control" id="Input_Email" name="Input.Email" placeholder="UserName" />
+            <input type="password" class="form-control" id="Input_Password" name="Input.Password" placeholder="Password" />
+            <label for="Input_RememberMe">
+              <input type="checkbox" id="Input_RememberMe" name="Input.RememberMe" />
+              Remember Me? </label>
+            <button type="submit" class="btn btn-primary w-100" title="Login"><span>Log in</span></button>
+
+          </form>
+        </div>
+        <footer class="col text-center text-secondary">
+          <p> &copy;2020 &bull; Asset Management Platform </p>
+        </footer>
+      </div> <!-- .formWrapper ends -->
+    </div>
 
   </div> <!-- .mainWrapper ends -->
 
