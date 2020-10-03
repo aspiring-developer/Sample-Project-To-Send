@@ -66,18 +66,6 @@
   margin-top: 1rem;
 }
 
-.landingLoginBtn {
-  background-color: #3f6990;
-  color: #fff;
-  margin: 1rem auto;
-  font-size: .9rem;
-}
-
-.landingLoginBtn:hover {
-  background-color: #325779;
-  color: #b8d7f5;
-}
-
 .landingNewUser a, .landingForgotPassword a {
   color: #385877;
 }

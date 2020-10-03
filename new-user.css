@@ -1,7 +1,8 @@
 .newUserMainWrapper {
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
+  width: 90vw;
+  height: 90vh;
+  margin: 5% auto;
+  margin-top: 5%;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -9,14 +10,18 @@
   background-color: rgba(245, 248, 250, 0.7);
 }
 
-.newUserFormWrapper {
+.newUserContentsRow h5 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.newUserContentsWrapper {
   padding: 3rem 4rem;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 2px 2px 5px rgba(16, 17, 17, 0.5);
 }
 
-.newUserFormRow {
-  width: 400px;
+.newUserContentsRow {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 1);
 }
@@ -24,10 +29,10 @@
 .newUserLogoWrapper {
   border-radius: 10px 10px 0 0;
   background-color: rgba(255, 255, 255, 1);
-  margin: 1rem;
+  text-align: center;
 }
 
-.newUserFormWrapper img {
+.newUserLogoWrapper img {
   margin: 1rem auto;
 }
 
@@ -56,7 +61,7 @@
   margin-top: 1rem;
 }
 
-.newUserLoginBtn {
+/* .newUserLoginBtn {
   background-color: #3f6990;
   color: #fff;
   margin: 1rem auto;
@@ -74,4 +79,8 @@
 
 .newUserNewUser a:hover, .newUserForgotPassword a:hover {
   color: #0f5e5e;
+} */
+
+form .newUserNote {
+  color: rgb(255, 72, 0);
 }
